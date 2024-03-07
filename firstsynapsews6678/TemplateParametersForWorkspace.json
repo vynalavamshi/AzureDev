@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "firstsynapsews6678"
+		},
+		"firstsynapsews6678-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:firstsynapsews6678.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"firstsynapsews6678-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://synapsestorage678.dfs.core.windows.net"
+		}
+	}
+}
