@@ -3,3 +3,7 @@
 terraform.tfstate*
 *.tfvars
 secrets.txt
+git remote add origin https://github.com/vynalavamshi/Good.git
+git ls-remote origin
+git fetch --all && git pull --all
+git fetch --all ; git pull --all
