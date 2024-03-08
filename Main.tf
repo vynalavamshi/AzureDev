@@ -116,4 +116,10 @@ resource "azurerm_storage_blob" "Blob" {
 #     container_name       = "tfstate"
 #     key                  = "prod.terraform.tfstate"
 #   }
+# }#   backend "azurerm" {
+#     resource_group_name  = "demo-resources"
+#     storage_account_name = "storage_account_name"
+#     container_name       = "tfstate"
+#     key                  = "prod.terraform.tfstate"
+#   }
 # }
